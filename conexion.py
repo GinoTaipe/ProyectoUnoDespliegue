@@ -3,12 +3,8 @@ from dotenv import load_dotenv
 import os
 from pathlib import Path
 
-# Forzar la ruta absoluta del .env desde la carpeta actual del archivo
-dotenv_path = Path(__file__).resolve().parent / ".env"
-if not dotenv_path.exists():
-    raise FileNotFoundError(f" No se encontró el .env en {dotenv_path}")
 
-load_dotenv(dotenv_path=dotenv_path)
+load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY")
