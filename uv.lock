@@ -866,7 +866,7 @@ dependencies = [
 requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
-    { name = "streamlit", specifier = ">=1.52.2" },
+    { name = "streamlit" },
     { name = "supabase", specifier = ">=2.25.1" },
 ]
 
