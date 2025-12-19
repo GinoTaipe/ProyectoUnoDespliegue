@@ -5,9 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "python-dotenv>=1.2.1",
-    "streamlit>=1.52.2",
-    "supabase>=2.25.1",
-    "cryptography<46",
-    "cffi<2"
+    "streamlit==1.52.2",
+    "supabase==2.25.1",
+    "cryptography==45.0.6",
+    "cffi==1.16.0",
+    "python-dotenv==1.0.1"
 ]
