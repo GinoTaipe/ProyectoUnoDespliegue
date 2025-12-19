@@ -3,11 +3,9 @@ name = "sistema-cleoferr"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.14"
 dependencies = [
-    "streamlit==1.52.2",
-    "supabase==2.25.1",
-    "cryptography==45.0.6",
-    "cffi==1.16.0",
-    "python-dotenv==1.0.1"
+    "dotenv>=0.9.9",
+    "streamlit>=1.52.2",
+    "supabase>=2.27.0",
 ]
